@@ -5,6 +5,9 @@ using namespace std;
 int add(int num1, int num2) {
   return num1 + num2;
 }
+int div(int num1, int num2) {
+  return num1 / num2;
+}
 
 int main() {
   
@@ -16,6 +19,7 @@ int main() {
   cin >> num2;
   
   cout << "Addition of first number and second number is: " << add(num1, num2);
+  cout << "Division of first number and second number is: " << div(num1, num2);
   
   return 0;
 }
